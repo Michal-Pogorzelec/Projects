@@ -1,0 +1,42 @@
+@startuml
+class Product{
++  __init__(name: str, price: float)
++ __eq__(other)
++ __hash__()
+- name
+- price
+- produkty
+}
+class AServer {
++ {abstract} get_entries(n: int): List(Product)
++ __init__
+- n_max_returned_entries
+
+}
+class TooManyProductsFoundError{
++ __init__
+}
+class ListServer{
++ get_entries(n: int): List(Product)
+}
+class MapServer{
++ get_entries(n: int): List(Product)
++ set_product_map(): Dict
+}
+class Client{
++ __init__(server: AServer)
++ get_total_price(n_letters: int): Optional[float]
+- server
+}
+class TooManyProductsFoundError{
+
+}
+AServer <.. TooManyProductsFoundError : << raise exception >>
+ListServer<.. TooManyProductsFoundError : << raise exception >>
+MapServer<.. TooManyProductsFoundError : << raise exception >>
+AServer o-- Product
+Client o-- AServer
+Exception <|-- TooManyProductsFoundError
+AServer <|-- ListServer
+AServer <|-- MapServer
+@enduml

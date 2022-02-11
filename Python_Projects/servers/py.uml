@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#C:/ZPO-Serwery/serwer.py</OriginalElement>
+  <nodes>
+    <node x="229.0" y="173.0">serwer.ListServer</node>
+    <node x="-294.0" y="123.549815498155">serwer.TooManyProductsFoundError</node>
+    <node x="458.0" y="151.0">serwer.Product</node>
+    <node x="114.5" y="0.0">serwer.ASerwer</node>
+    <node x="458.0" y="0.0">serwer.Client</node>
+    <node x="-207.5" y="42.549815498155">Exception</node>
+    <node x="0.0" y="151.0">serwer.MapServer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="serwer.ListServer" target="serwer.ASerwer" relationship="REALIZATION">
+      <point x="0.0" y="-50.5" />
+      <point x="333.5" y="126.0" />
+      <point x="219.0" y="126.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="serwer.TooManyProductsFoundError" target="Exception" relationship="REALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="serwer.MapServer" target="serwer.ASerwer" relationship="REALIZATION">
+      <point x="0.0" y="-72.5" />
+      <point x="104.5" y="126.0" />
+      <point x="219.0" y="126.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.104154302670623" showDependencies="false" x="254.6108572964257" y="235.436710561677" />
+  <SelectedNodes>
+    <node>serwer.Client</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+</Diagram>
+
