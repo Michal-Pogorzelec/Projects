@@ -1,0 +1,6 @@
+{"zawody": ["kucharz", "malarz", "prawnik", "programista"],
+"owoce": ["malina", "truskawka", "gruszka", "jablko"],
+"warzywa": ["ziemniak", "ogorek", "pomidor", "salata"],
+"sporty": ["narciarstwo", "siatkowka", "hokej", "bieganie"],
+"panstwa": ["polska", "niemcy", "czechy", "slowacja"]
+}
