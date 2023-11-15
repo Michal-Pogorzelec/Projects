@@ -1,0 +1,6 @@
+# ninja log v5
+3	129	7198585038969030	CMakeFiles/lunar_agh_sim.dir/main.c.obj	3776725b22f19d4a
+129	272	7198585040312963	lunar_agh_sim.exe	bf639abc2fb60464
+0	111	7217511517067327	build.ninja	8dd6a469e64de180
+2	153	7217515603416834	CMakeFiles/lunar_agh_sim.dir/main.c.obj	610d295bb8ccbf53
+153	282	7217515604676823	lunar_agh_sim.exe	bf639abc2fb60464
