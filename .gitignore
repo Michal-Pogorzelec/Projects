@@ -56,3 +56,5 @@ dkms.conf
 .cmake/
 cmake-build-debug/
 .idea/
+venv/
+__pycache__/
