@@ -1,2 +1,2 @@
 # Projects
-Projects made by me for the purpose of learning
+Some of the projects made by me for the purpose of learning
