@@ -1,0 +1,36 @@
+Zrealizowałam projekt tworząc prostą aplikacje konsolową, która działając w pętli wykonuje 
+akcje wybraną z listy dostępnych na ekranie po uruchomieniu aplikacji.
+
+Względem pierwszego etapu w programie zostały dodane klasy Stażysta, Administrator, Programista, Analityk, Księgowy. 
+Klasy te dziedziczą po klasie Pracownik, i nadpisuję niektóre z jego funkcji lub pól, realizując poszczególne cechy
+przypisane do konretnych klas. 
+Został dodany typ wyliczeniowy umowa, która pozwala na określenie, na jakiego typu umowie jest pracownik. 
+Została dodana możliwość symulacji pracy pracowników przez określoną ilośc miesięcy, wysłanie pracownika na L4 (uwzględnienie tego w pensji),
+przyznawanie premii. 
+Zapis i odczyt z pliku obejmuje takie informacje jak nazwa pracownika, jego pensja, 
+stanowisko i to czy może on pracować zdalnie (w formie wartości typu bool).
+Program pozwala również na uruchomienie z argumentem wiersza poleceń, którym jest ścieżka do pliku (uruchamiamy to w konsoli 
+cmd podając najpierw plik .exe a po spacji plik tekstowy z wierszem poleceń). Uruchamiając program, bez ścieżki
+do pliku można w dalszym ciągu wczytywać dane z klawiatury.
+
+
+Zgodnie z wymaganiami do 3 etapu zostały dodane instrukcje rzucające wyjątki różnych typów, oraz bloki try-catch.
+Został utworzony szablon klasy Container przechowującej pracowników w firmie, jest możliwość tworzenia dowolnej 
+ilości różnych firm, a program podczas kompilacji nie pokazuje żadnych ostrzeżeń. Nie występuje również kopiowanie obiektów
+przy przekazywaniu ich jako argumenty funkcji.
+
+
+Wybrana firma: Firma_1
+1.Utworz nowa firme
+2.Dodaj pracownika
+3.Usun pracownika
+4.Wypisz spis pracownikow
+5.Symuluj prace
+6.Wczytaj spis z pliku
+7.Zapisz spis do pliku
+8.Wyslij pracownika na L4
+9.Symuluj picie kawy
+10.Zmien firme na ktorej wykonujesz operacje
+11.Zakoncz dzialanie
+
+Akcję z menu wywołujemy podając numer znajdujący się na początku i naciskając klawisz enter.

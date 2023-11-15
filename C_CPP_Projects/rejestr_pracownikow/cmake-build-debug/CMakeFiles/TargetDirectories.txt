@@ -1,0 +1,3 @@
+D:/Korepetycje/rejestr_pracownikow_2/cmake-build-debug/CMakeFiles/PajorMagdalena-etap1.dir
+D:/Korepetycje/rejestr_pracownikow_2/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Korepetycje/rejestr_pracownikow_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,13 @@
+Zrealizowałam projekt tworząc prostą aplikacje konsolową, która działając w pętli wykonuje 
+akcje wybraną z listy dostępnych na ekranie po uruchomieniu aplikacji.
+
+Dostępne akcje:
+    1.Utworz nowy spis
+    2.Dodaj pracownika
+    3.Usun pracownika
+    4.Wypisz spis pracownikow
+    5.Wczytaj spis z pliku
+    6.Zapisz spis do pliku
+    7.Zakoncz dzialanie
+
+Akcję wywołujemy podając numer znajdujacy sie na początku i naciskając klawisz enter
